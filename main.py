@@ -4,7 +4,7 @@ from config import config
 import logging
 
 # Настройка логгирования
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 try:
     # Подключение к базе данных SQLite
